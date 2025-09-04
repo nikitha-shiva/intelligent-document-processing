@@ -6,11 +6,7 @@
 [![AWS](https://img.shields.io/badge/AWS-Textract-orange)](https://aws.amazon.com/textract)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)](https://pandas.pydata.org)
 
-## 🎯 Job Requirement Match
 
-**Direct Quote from Job Posting**: *"Translate messy files into trusted data: Create robust, repeatable processes to extract and normalize data from Excel (multi-sheet, merged cells, header variations, hidden rows, cross-tab layouts) and PDF documents (including OCR and table extraction)"*
-
-✅ **This pipeline handles ALL of these requirements and more.**
 
 ## 🔧 Processing Capabilities
 
