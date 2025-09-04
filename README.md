@@ -29,7 +29,7 @@
 ✅ **Multi-page document** assembly  
 ✅ **Text positioning** and formatting analysis  
 
-## 🏗️ Architecture
+
 ## 🏗️ Architecture
 
 ### **Document Processing Flow:**
