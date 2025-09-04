@@ -93,36 +93,6 @@ Auto      Parsers     Checks    Ready Data
 | **Scanned PDFs** | 500+ docs/day | 45 seconds avg | 91% OCR accuracy |
 | **Mixed Formats** | 2,000+ docs/day | 35 seconds avg | 93% overall success |
 
-## 🔧 Advanced Processing Examples
-
-### **Complex Excel Handler**
-```python
-def process_complex_excel(self, file_path):
-    """
-    Handle the messiest Excel files with confidence
-    ✅ Multi-sheet workbooks with varying structures
-    ✅ Merged cells detection and normalization  
-    ✅ Dynamic header variations handling
-    ✅ Cross-tab layouts to normalized tables
-    """
-    workbook = openpyxl.load_workbook(file_path, data_only=True)
-    
-    processed_data = {}
-    for sheet_name in workbook.sheetnames:
-        sheet = workbook[sheet_name]
-        
-        # Handle merged cells
-        merged_data = self.process_merged_cells(sheet)
-        
-        # Normalize headers
-        normalized_headers = self.normalize_headers(merged_data)
-        
-        # Convert cross-tabs to relational format
-        relational_data = self.crosstab_to_relational(normalized_headers)
-        
-        processed_data[sheet_name] = relational_data
-        
-    return processed_data
 💼 Business Impact
 Operational Efficiency
 
